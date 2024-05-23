@@ -1,0 +1,36 @@
+{
+    "forward": {
+        "max_velocity": 1.0,
+        "min_velocity": 0.25
+    },
+    "backward": {
+        "max_velocity": 1.0,
+        "min_velocity": 0.25
+    },
+    "lateral": {
+        "max_velocity": 1.0,
+        "min_velocity": 0.25
+    },
+    "yaw": {
+        "max_velocity": 1.0,
+        "min_velocity": 0.0
+    },
+    "axis_mapping":{
+        "forward_backward": {
+            "index": 1,
+            "inverted": true
+        },
+        "lateral":{
+            "index": 0,
+            "inverted": true
+        },
+        "yaw":{
+            "index": 3,
+            "inverted": true
+        }
+    },
+    "median_filter":{
+        "window_size": 10
+    },
+    "deadband": 0.2
+}
